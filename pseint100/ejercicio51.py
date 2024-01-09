@@ -1,0 +1,12 @@
+print("")
+print("EL CUADRADO")
+print("")
+print("AREA DEL CUADRADO")
+L=float(input("LADO (cm): "))
+area=int(L*L)
+print("AREA:",area,"cm")
+
+print("")
+P=int(4*L)
+print("PERIMETRO DEL CUADRADO")
+print ("PERIMETRO: ",P)

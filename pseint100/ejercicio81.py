@@ -1,0 +1,11 @@
+print("0.5 CLACULAR IGV SEGUN EL MONTO DE COMPRA")
+precio=float(input("INGRESE PRECIO: S/. "))
+cant=int(input("INGRESE CANTIDAD: "))
+monto=int(precio*cant)
+if monto>100:
+    IGV=int(monto*0.18)
+totalP=int(monto+IGV)
+print("")
+print("TOTAL             : S/",monto)
+print("IGV 18%           : S/",IGV) 
+print("TOTAL A PAGAR     : S/",totalP) 

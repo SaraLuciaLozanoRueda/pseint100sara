@@ -1,0 +1,12 @@
+print ("AREA DEL PENTAGONO")
+print("")
+P=float(input("PERIMETRO: "))
+AP=float(input("APOTEMA:   "))
+
+A=int((P*AP)/2)
+print("AREA: ",A,"cm2")
+print("")
+print ("PERIMETRO DEL PENTAGONO")
+L=float(input("LADO(cm): "))
+P=int(5*L)
+print("PERIMETRO:  ",P,"cm")

@@ -1,0 +1,5 @@
+print("01.CALCULAR EL IGV")
+print("")
+monto=float(input("INGRESE MONTO DE DINERO: S/"))
+igv=float(monto*0.18)
+print("EL IGV 18% ES: S/",igv)
